@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Marcus_Wordlaw/static/css/main.ce506e1e.chunk.css",
-    "main.js": "/Marcus_Wordlaw/static/js/main.3e8ba1b3.chunk.js",
-    "main.js.map": "/Marcus_Wordlaw/static/js/main.3e8ba1b3.chunk.js.map",
-    "runtime~main.js": "/Marcus_Wordlaw/static/js/runtime~main.cdb969f3.js",
-    "runtime~main.js.map": "/Marcus_Wordlaw/static/js/runtime~main.cdb969f3.js.map",
-    "static/css/2.764ccc25.chunk.css": "/Marcus_Wordlaw/static/css/2.764ccc25.chunk.css",
-    "static/js/2.55eaa089.chunk.js": "/Marcus_Wordlaw/static/js/2.55eaa089.chunk.js",
-    "static/js/2.55eaa089.chunk.js.map": "/Marcus_Wordlaw/static/js/2.55eaa089.chunk.js.map",
-    "index.html": "/Marcus_Wordlaw/index.html",
-    "precache-manifest.f1cf20c3f390a51413d525a817b9d30f.js": "/Marcus_Wordlaw/precache-manifest.f1cf20c3f390a51413d525a817b9d30f.js",
-    "service-worker.js": "/Marcus_Wordlaw/service-worker.js",
-    "static/css/2.764ccc25.chunk.css.map": "/Marcus_Wordlaw/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.ce506e1e.chunk.css.map": "/Marcus_Wordlaw/static/css/main.ce506e1e.chunk.css.map"
+    "main.css": "/marcus_wordlaw/static/css/main.ce506e1e.chunk.css",
+    "main.js": "/marcus_wordlaw/static/js/main.642cd6e3.chunk.js",
+    "main.js.map": "/marcus_wordlaw/static/js/main.642cd6e3.chunk.js.map",
+    "runtime~main.js": "/marcus_wordlaw/static/js/runtime~main.cd57fb1b.js",
+    "runtime~main.js.map": "/marcus_wordlaw/static/js/runtime~main.cd57fb1b.js.map",
+    "static/css/2.764ccc25.chunk.css": "/marcus_wordlaw/static/css/2.764ccc25.chunk.css",
+    "static/js/2.30595e9a.chunk.js": "/marcus_wordlaw/static/js/2.30595e9a.chunk.js",
+    "static/js/2.30595e9a.chunk.js.map": "/marcus_wordlaw/static/js/2.30595e9a.chunk.js.map",
+    "index.html": "/marcus_wordlaw/index.html",
+    "precache-manifest.da918594bc6a14e8543a540a53ac803b.js": "/marcus_wordlaw/precache-manifest.da918594bc6a14e8543a540a53ac803b.js",
+    "service-worker.js": "/marcus_wordlaw/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/marcus_wordlaw/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.ce506e1e.chunk.css.map": "/marcus_wordlaw/static/css/main.ce506e1e.chunk.css.map"
   }
 }
