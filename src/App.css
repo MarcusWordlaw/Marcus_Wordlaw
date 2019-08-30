@@ -12,6 +12,7 @@
   position: fixed;
   padding-top: 0;
   width: 100%;
+  /* background-color: skyblue; */
 }
 
 .navbar-body ul {
@@ -19,30 +20,30 @@
   text-align: right;
 }
 
-.home-body {
+/* .home-body {
   padding-top: 1px;
   height: 100vh;
   background-color: skyblue;
-}
+} */
 
-.projects-body {
+/* .projects-body {
   height: 100vh;
   background-color: white;
-}
+} */
 
-.blogcontainer-body {
+/* .blogcontainer-body {
   margin: auto;
   height: 100vh;
   background-color: red;
-}
+} */
 
 
 
-.resume-body {
+/* .resume-body {
   padding-top: 1px;
   height: 100vh;
   background-color: blue;
-}
+} */
 
 /* .blogcard-body{
   display: inline;
@@ -74,3 +75,142 @@ li {
   
 }
 
+/* ****************************************************** */
+
+/* Heading */
+
+.body-home {
+  /* font-family: 'Lato', Arial, Helvetica, sans-serif; */
+  line-height: 1.6 !important;
+  background-color: #191919;
+  transition: background-color 300ms linear;
+  color: rgba(250, 250, 250, 0.7);
+  -webkit-font-smoothing: antialiased;
+  font-size: 50px;
+  font-family: 'Playfair Display', 'Palatino', 'Times New Roman', Times, serif;
+  /* margin: 0 !important; */
+  height: 100vh;
+  padding-top: 5rem;
+  /* padding-right: 9rem; */
+  padding-bottom: 8rem;
+  padding-left: 10rem;
+
+  /* .box-content {
+    display: inline-block;
+  } */
+
+  /* width: 100px;
+  height: 100px; */
+  /* position: absolute;
+  left: 10%;
+  margin-left: -10px; */
+  
+}
+
+
+  
+  /* @media (min-width: 1700px) {
+    font-size: 64px !important;
+  } */
+  /* @media (max-width: 320px) {
+    font-size: 28px !important;
+  } */
+  @media (min-width: 450px){
+    .break-under-xs {
+      display: none;
+    }
+  }
+  @media (min-width: 1400px){
+    .break-small {
+      display: none;
+    }
+  }
+  .break-large {
+    display: none;
+  }
+  @media (min-width: 450px){
+    .break-large {
+      display: block;
+    }
+  }
+
+  span,
+  .city-link,
+  .city_link_content {
+    color: white;
+  }
+  /* .city-link {
+    text-decoration: none;
+    display: inline-block;
+    user-select: none;  
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 0.4s ease-in-out;
+    :active {
+      transform: scale(1.2);
+      transition: transform 0s;
+    }
+  } */
+  .city-link_content {
+    display: block;
+    text-decoration: underline;
+  }
+  .city-link:hover > .city-link_content {
+    color: turquoise;
+    /* Block "sticky hover" effect on mobile devices */
+    @media (hover: none) {
+      color: inherit;
+    }
+  }
+  /* Remove default focus from target elements */  
+  .city-link:focus,
+  .city-link_content:focus {
+    outline: none;
+  }
+  /* Only when the outer element is reached by a keyboard, apply the focus styles. Now clicking on the element won't focus the link */  
+  .city-link:focus > .city-link_content {
+    color: turquoise;
+    /* Apply default focus styles */
+    outline: 3px solid turquoise;
+  }
+
+/* p */
+
+  /* text-align: center;
+  font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (1700 - 320)));
+  @media (min-width: 1700px) {
+    font-size: 18px;
+  }
+  @media (max-width: 320px) {
+    font-size: 12px;
+  } */
+
+
+/* ************** a **************** */
+  /* width: calc(20px + (30 - 20) * ((100vw - 320px) / (1700 - 320)));
+  margin-right: 25px;
+  position: relative;
+  top: 1px;
+  user-select: none;  
+  -webkit-tap-highlight-color: transparent;
+  @media (min-width: 1700px) {
+    width: 30px;
+  }
+  @media (max-width: 320px) {
+    width: 20px;
+  }
+  @media (min-width: 768px) {
+    margin-right: 35px;
+  }
+  @media (min-width: 1200px) {
+    margin-right: 45px;
+  }
+  transition: transform 0.4s ease-in-out;
+  :active {
+    transform: scale(1.2);
+    transition: transform 0s;
+  }
+  .social-link_content {
+    display: block;
+  }
+  /* Make sure nothing inside the a tag has pointer events, so clicks on the a tag will always be found on that element */
+  

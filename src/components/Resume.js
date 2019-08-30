@@ -1,20 +1,19 @@
 import React from 'react';
 import '../styles/style.scss';
+//Needs Work
 
 const Resume = () => {
     return (
         <div className="cv__container" id="resume">
-    
           <h1 className="cv__title">Curriculum Vitae</h1>
           <h2>MARCUS WORDLAW | SOFTWARE ENGINEER | TECHNICAL WRITER </h2>
-    
           <hr className="cv__divider"/>
-    
           <div className="cv__section">
             <h1>Interaction</h1>
             <div className="cv__item">
               <h2>JavaScript</h2>
               <ul>
+                <li>Node.js</li>
                 <li>Babel</li>
                 <li>ES6</li>
                 <li>jQuery</li>
@@ -24,19 +23,16 @@ const Resume = () => {
               </ul>
             </div>
             <div className="cv__item">
-              <h2>Creative Code</h2>
+              <h2>Java</h2>
               <ul>
-                <li>Canvas API</li>
-                <li>p5.js</li>
-                <li>Three.js</li>
-                <li>Web Audio API</li>
+                <li>Java Spring</li>
               </ul>
             </div>
             <div className="cv__item">
-              <h2>PHP</h2>
+              <h2>Ruby</h2>
               <ul>
-                <li>SilverStripe</li>
-                <li>WordPress</li>
+                <li>Rails</li>
+                <li>Active Record</li>
               </ul>
             </div>
             <div className="cv__item">
@@ -45,6 +41,8 @@ const Resume = () => {
                 <li>CSS3</li>
                 <li>Sass</li>
                 <li>SCSS</li>
+                <li>Bootstrap 4</li>
+                <li>Material UI</li>
               </ul>
             </div>
             <div className="cv__item">
@@ -53,26 +51,32 @@ const Resume = () => {
                 <li>Git</li>
                 <li>Heroku</li>
                 <li>NPM</li>
-                <li>Firebase</li>
+                <li>Maven</li>
                 <li>Yarn</li>
               </ul>
             </div>
             <div className="cv__item">
-              <h2>Misc</h2>
+              <h2>Database</h2>
               <ul>
-                <li>Arduino</li>
-                <li>Bash</li>
-                <li>Pure Data</li>
-                <li>Unity3D</li>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+    
               </ul>
             </div>
             <div className="cv__item">
-              <h2>Learning</h2>
+              <h2>CI/CD</h2>
               <ul>
-                <li>Backbone.js</li>
-                <li>GLSL</li>
-                <li>Node.js</li>
-                <li>RequireJS</li>
+                <li>Jenkins</li>
+                <li>Travis</li>
+              </ul>
+            </div>
+            <div className="cv__item">
+              <h2>Testing</h2>
+              <ul>
+                <li>Selenium</li>
+                <li>R-Spec</li>
+                <li>JBehave</li>
+                <li>JUnit</li>
               </ul>
             </div>
           </div>
@@ -80,35 +84,30 @@ const Resume = () => {
           <div className="cv__section">
             <h1>Design</h1>
             <div className="cv__item">
-              <h2>Graphic</h2>
-              <ul>
-                <li>Illustrator</li>
-                <li>InDesign</li>
-                <li>Photoshop</li>
-                <li>Sketch</li>
-              </ul>
-            </div>
-            <div className="cv__item">
               <h2>3D</h2>
               <ul>
-                <li>Agisoft PhotoScan</li>
-                <li>Cinema 4D</li>
-                <li>MeshLab</li>
-                <li>Substance Designer</li>
-                <li>ZBrush</li>
+              <li>CATIA V5</li>
+                <li>PTC CREO</li>
+                <li>SolidWorks</li>
               </ul>
             </div>
             <div className="cv__item">
-              <h2>Motion</h2>
+              <h2>ANALYSIS</h2>
               <ul>
-                <li>After Effects</li>
-                <li>Premiere</li>
+              <li>ANSYS</li>
+                <li>Matlab</li>
+              </ul>
+            </div>
+            <div className="cv__item">
+              <h2>Docs</h2>
+              <ul>
+                <li>LaTex</li>
+                <li>Illustrator</li>
+                <li>Photoshop</li>
               </ul>
             </div>
           </div>
-    
           <hr className="cv__divider"/>
-    
           <div className="cv__section work">
             <h1>Work</h1>
             <div className="cv__item">
@@ -120,7 +119,7 @@ const Resume = () => {
                 <li><strong>System Design & Analysis Engineer</strong>
                     <br/>Boeing ~ 2015-2017</li>
                 <li><strong>Design Consultant COOP</strong>
-                    <br/>WSP ~ 2014-2015</li>
+                    <br/>WSP Global ~ 2014-2015</li>
                 <li><strong>Product Design Engineer COOP</strong>
                     <br/>DELL EMC~ 2012-2013</li>
                 <li><strong>Field Engineer Intern</strong>
@@ -132,7 +131,6 @@ const Resume = () => {
               </ul>
             </div>
           </div>
-    
           <div className="cv__section education">
             <h1>Education</h1>
             <div className="cv__item">
@@ -155,7 +153,6 @@ const Resume = () => {
               </ul>
             </div>
           </div>
-    
           <div className="cv__section awards">
             <h1>Awards & Recognition</h1>
             <div className="cv__item">
@@ -166,32 +163,22 @@ const Resume = () => {
                     <li>Boeing - Aerospace</li>
                   </ul>
                 </li>
-                <li><strong>VicLink Award</strong>
+                <li><strong>President Formula SAE of VCU</strong>
                   <ul>
-                    <li>for the project with the most commercial potential</li>
-                    <li>Victoria University of Wellington (2016)</li>
+                    <li>Tasked to build a Miniature Formula 1 Style Race car from the ground up</li>
+                    <li>Virginia Commonwealth University (2011-2015)</li>
                   </ul>
                 </li>
-                <li><strong>Master of Design Innovation Completion Scholarship</strong>
+                <li><strong>President Boeing Black Engineers Association</strong>
                   <ul>
-                    <li>Funded by Ministry of Business, Innovation and Employment</li>
-                    <li>Victoria University of Wellington (2015)</li>
+                    <li>Boeing Affinity Group </li>
+                    <li>Boeing  (2016)</li>
                   </ul>
                 </li>
-                <li><strong>VUW Summer Scholarship</strong>
+                <li><strong>Co-Creator of Engineering B.A.S.E Program</strong>
                   <ul>
-                    <li>National Library of New Zealand collaboration</li>
-                    <li>Victoria University of Wellington (2014)</li>
-                  </ul>
-                </li>
-                <li><strong>Creative Excellence Award for Top Overall Student</strong>
-                  <ul>
-                    <li>Otago Polytechnic (2013)</li>
-                  </ul>
-                </li>
-                <li><strong>Design Achievement Award</strong>
-                  <ul>
-                    <li>Otago Polytechnic (2011)</li>
+                    <li>Boeing Accelerated Simulation in Engineering</li>
+                    <li>Boeing (2015)</li>
                   </ul>
                 </li>
               </ul>
