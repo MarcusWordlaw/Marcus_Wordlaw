@@ -54,72 +54,29 @@ const Home = () => (
                 from the USA.&nbsp;
             </section>
             </Box>
-   
         </div>
+        <div className="connect">Connect with me</div>
+        <div className="social-links">
 
-            {/* <SocialParagraph>
-            Connect with me
-            </SocialParagraph>
-            <Box
-            display="flex"
-            alignItems="center"
-            justifyContent="center"
-            position="relative"
-            mb={15}
-            >
-            <Styled.SocialLink 
-                href="https://www.linkedin.com/in/ivan-špoljarić-2206a184
-                "
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Linkedin page"
-            >
-                <span
-                className="social-link_content"
-                tabIndex="-1"
-                >
-                <Linkedin />
-                </span>
-            </Styled.SocialLink >
-            <Styled.SocialLink  
-                href="https://github.com/ispoljari"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Github page"
-            >
-                <span
-                className="social-link_content"
-                tabIndex="-1"
-                >
-                <Github />
-                </span>
-            </Styled.SocialLink >
-            <Styled.SocialLink  
-                href="https://medium.com/@ivanspoljaric22"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Medium page"
-            >
-                <span
-                className="social-link_content"
-                tabIndex="-1"
-                >
-                <Medium />
-                </span>
-            </Styled.SocialLink >
-            <Styled.SocialLink  
-                href="mailto:ivan@ispoljaric.com?subject=Business proposal"
-                aria-label="Send email to ivan@ispoljaric.com"
-            >
-                <span
-                className="social-link_content"
-                tabIndex="-1"
-                >
-                <Gmail />
-                </span>
-            </Styled.SocialLink >
-            </Box> */}
+          {/* LinkedIn */}
+          <a href="https://linkedin.com/in/marcuswordlaw/" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-linkedin-square" aria-hidden="true" />
+          </a>
+
+          {/* Github */}
+          <a href="https://github.com/MarcusWordlaw" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-github-square" aria-hidden="true" />
+          </a>
+
+          {/* Medium */}
+          <a href="https://medium.com/@TetraGravity" rel="noopener noreferrer" target="_blank">
+            <i className="fab fa-medium" aria-hidden="true" />
+          </a>
+        </div>
     </section>
+
+    
+
   </React.Fragment>  
 );
 export default Home;

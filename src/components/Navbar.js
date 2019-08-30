@@ -19,7 +19,7 @@ class Navbar extends Component {
                     smooth={true}
                     offset={0}
                     duration={360}
-                > Home </Link>
+                > Home |  </Link>
                 <Link
                     activeClass="active"
                     to="projects"
@@ -27,7 +27,7 @@ class Navbar extends Component {
                     smooth={true}
                     offset={100}
                     duration={360}
-                >Projects </Link>
+                >Projects |  </Link>
                 <Link
                     activeClass="active"
                     to="blog"
@@ -35,7 +35,7 @@ class Navbar extends Component {
                     smooth={true}
                     offset={-20}
                     duration={360}
-                > Articles </Link>
+                > Articles | </Link>
                 <Link
                     activeClass="active"
                     to="resume"
