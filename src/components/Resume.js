@@ -25,6 +25,7 @@ const Resume = () => {
             <div className="cv__item">
               <h2>Java</h2>
               <ul>
+              <li>Java EE</li>
                 <li>Java Spring</li>
               </ul>
             </div>
@@ -32,6 +33,7 @@ const Resume = () => {
               <h2>Ruby</h2>
               <ul>
                 <li>Rails</li>
+                <li>Sinatra</li>
                 <li>Active Record</li>
               </ul>
             </div>
@@ -102,6 +104,7 @@ const Resume = () => {
               <h2>Docs</h2>
               <ul>
                 <li>LaTex</li>
+                <li>Markdown</li>
                 <li>Illustrator</li>
                 <li>Photoshop</li>
               </ul>
