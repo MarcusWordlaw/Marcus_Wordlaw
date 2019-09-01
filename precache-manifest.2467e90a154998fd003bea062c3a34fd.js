@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "809e971fd3db1e1b405048c49b742bb3",
+    "revision": "6728c5aaa7a3120f7d51acf8eee7309c",
     "url": "/marcus_wordlaw/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marcus_wordlaw/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "594f804775efe6f9ace2",
+    "revision": "5b08be93e5c985e52988",
     "url": "/marcus_wordlaw/static/css/main.ce506e1e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marcus_wordlaw/static/js/2.30595e9a.chunk.js"
   },
   {
-    "revision": "594f804775efe6f9ace2",
-    "url": "/marcus_wordlaw/static/js/main.642cd6e3.chunk.js"
+    "revision": "5b08be93e5c985e52988",
+    "url": "/marcus_wordlaw/static/js/main.e5cf3e6a.chunk.js"
   },
   {
     "revision": "9fb33e769629616a04eb",
