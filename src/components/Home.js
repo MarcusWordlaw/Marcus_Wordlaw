@@ -1,6 +1,5 @@
  import React from 'react';
 import { Box } from '@smooth-ui/core-sc';
-// import {Row, Col } from 'react-bootstrap';
 import TextLoop from 'react-text-loop';
 
 

@@ -18,7 +18,7 @@ const Projects = () => (
                 <p className="mb-0">Coming Soon</p>
               </span>
             </span>
-            <img className="img-fluid" src="/img/portfolio-1.jpg" alt=""/>
+            <img className="img-fluid" src="portfolio-1.jpg" alt=""/>
           </a>
         </div>
         <div className="col-lg-6">
@@ -29,7 +29,7 @@ const Projects = () => (
                 <p className="mb-0">Coming Soon</p>
               </span>
             </span>
-            <img className="img-fluid" src="/img/portfolio-2.jpg" alt=""/>
+            <img className="img-fluid" src="portfolio-2.jpg" alt=""/>
           </a>
         </div>
         <div className="col-lg-6">
@@ -40,7 +40,7 @@ const Projects = () => (
                 <p className="mb-0">Coming Soon</p>
               </span>
             </span>
-            <img className="img-fluid" src="/img/portfolio-3.jpg" alt=""/>
+            <img className="img-fluid" src="portfolio-3.jpg" alt=""/>
           </a>
         </div>
         <div className="col-lg-6">
@@ -51,7 +51,7 @@ const Projects = () => (
                 <p className="mb-0">Coming Soon.</p>
               </span>
             </span>
-            <img className="img-fluid" src="/img/portfolio-1.jpg" alt="" />
+            <img className="img-fluid" src="portfolio-1.jpg" alt="" />
           </a>
         </div>
       </div>
