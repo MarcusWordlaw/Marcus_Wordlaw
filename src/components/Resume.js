@@ -115,20 +115,16 @@ const Resume = () => {
             <h1>Work</h1>
             <div className="cv__item">
               <ul>
-                <li><strong>Blockchain Consultant</strong>
-                    <br/>Gravity Consulting ~ 2018-Present</li>
-                <li><strong>Software Engineer II</strong>
-                    <br/>Northrop Grumman Corp ~ 2017-2019</li>
-                <li><strong>System Design & Analysis Engineer</strong>
-                    <br/>Boeing ~ 2015-2017</li>
-                <li><strong>Design Consultant COOP</strong>
-                    <br/>WSP Global ~ 2014-2015</li>
-                <li><strong>Product Design Engineer COOP</strong>
+                <li><strong>Software | Blockchain Consultant</strong>
+                    <br/>Gravity Consulting March 2017-Present</li>
+                <li><strong>Software Engineer</strong>
+                    <br/>Northrop Grumman Corp JUNE 2017-Present</li>
+                <li><strong>Systems Engineer</strong>
+                    <br/>Boeing SEP 2012 MAY 2017</li>
+                <li><strong>Product Design Engineer Intern</strong>
                     <br/>DELL EMC~ 2012-2013</li>
-                <li><strong>Field Engineer Intern</strong>
-                    <br/>LG&E & KU Energy ~ 2013</li>
                 <li><strong>Co-Owner</strong>
-                    <br/>AM-Motorsports ~ 2007-2010</li>
+                    <br/>AM-Motorsports SEP 2007 AUG 2010</li>
                 <li><strong>Technical Support</strong>
                     <br/>MCI Communications ~ 2004-2005</li>
               </ul>
@@ -149,7 +145,7 @@ const Resume = () => {
                   <ul>
                   <li>Specialising in Mechanical Engineering</li>
                   <li>Minor Mathematics & Physics</li>
-                    <li>Graduated, 2015</li>
+                    <li>Graduated, 2012</li>
                     <li>Virginia Commonwealth University</li>
                   </ul>
                 </li>
@@ -169,7 +165,7 @@ const Resume = () => {
                 <li><strong>President Formula SAE of VCU</strong>
                   <ul>
                     <li>Tasked to build a Miniature Formula 1 Style Race car from the ground up</li>
-                    <li>Virginia Commonwealth University (2011-2015)</li>
+                    <li>Virginia Commonwealth University (2011)</li>
                   </ul>
                 </li>
                 <li><strong>President Boeing Black Engineers Association</strong>
